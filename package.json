@@ -2,6 +2,7 @@
   "name": "schedule_master",
   "version": "0.1.0",
   "private": true,
+  "author": "vytran",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
