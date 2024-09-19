@@ -4,7 +4,7 @@ import { Calendar } from "lucide-react";
 export default function EmptyPlaceholder() {
   return (
     <div
-      className={`w-full h-100 bg-gray-100 rounded-lg flex flex-col items-center justify-center p-6 dark:bg-gray-500`}
+      className={`w-full h-100 bg-gray-100 rounded-lg flex flex-col items-center justify-center p-6 dark:bg-zinc-500`}
     >
       <div
         className="text-gray-400 mb-2 dark:text-gray-100
