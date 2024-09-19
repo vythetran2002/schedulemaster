@@ -1,28 +1,50 @@
 # ScheduleMaster
 
-ScheduleMaster is a project inspired by Google Calendar, helping users manage their schedules for client meetings or webinars.
+ScheduleMaster is a powerful scheduling application inspired by Google Calendar, designed to help users efficiently manage their appointments and webinars.
+
+## Features
+
+- Intuitive calendar interface for easy scheduling
+- Support for two types of events: client appointments and webinars
+- Responsive design for both web and mobile views
+- Color-coded events for better visual organization
 
 ## Installation
 
-Follow these steps to install the project:
+Follow these steps to set up ScheduleMaster on your local machine:
 
-```bash
-# Clone the repository
-git clone <repository-url>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vythetran2002/schedulemaster.git
+   ```
 
-# Install dependencies
-cd <project-directory>
-npm install
+2. Navigate to the project directory:
+   ```bash
+   cd schedule-master
+   ```
 
-# Running the Project
-To run the project locally, use the following command:
-```bash
-npm run dev
-Visit http://localhost:3000 to view the project.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Notes
+## Running the Project
 
-- Remember to replace `<repository-url>` and `<project-directory>` with your actual repository URL and project directory.
-- You can add additional sections like features, usage instructions, project architecture, etc., if needed.
+To run ScheduleMaster locally:
 
-If you need any further information or adjustments, just let me know!
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and visit `http://localhost:3000`
+
+
+## Technologies Used
+
+- Next.js
+- ShadCN UI
+- Tailwind CSS
+- dayJs (for date manipulation)
+
+Happy Scheduling with ScheduleMaster!
